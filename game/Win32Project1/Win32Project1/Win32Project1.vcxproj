@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>../../../sdk/sdl/lib/x86;../../../sdk/sdl_image/lib/x86;../../../sdk/sdl_mixer/lib/x86;../../../sdk/sdl_ttf/lib/x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>../../../sdk/sdl/include;../../../sdk/sdl_image/include;../../../sdk/sdl_mixer/include;../../../sdk/sdl_ttf/include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;../../../sdk/sdl/lib/x86;../../../sdk/sdl_image/lib/x86;../../../sdk/sdl_mixer/lib/x86;../../../sdk/sdl_ttf/lib/x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>../../../sdk/sdl/include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;../../../sdk/sdl_image/include;../../../sdk/sdl_mixer/include;../../../sdk/sdl_ttf/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -145,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bmsParser.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
@@ -162,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="bmsParser.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="GameScene.h" />
