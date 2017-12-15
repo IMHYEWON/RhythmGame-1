@@ -1,2 +1,8 @@
 # RhythmGame
-C++ RhythmGame Example
+
+## C++ RhythmGame Example
+
+
+### Using Data Structure
+ - ArrayList
+ - 
