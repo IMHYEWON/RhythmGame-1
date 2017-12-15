@@ -2,6 +2,9 @@
 
 ## C++ RhythmGame Example
  Timer Based Rhythm Game
+ 
+ ## Process Cycle
+ SDL_Texture -> Texture -> Sprite -> Note -> Track -> GameScene extends Scene -> SceneManager
 
 ## Will be Updated...
  1. Select Variable Music (Using BMS Script)
