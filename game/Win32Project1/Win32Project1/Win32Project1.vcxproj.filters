@@ -81,9 +81,6 @@
     <ClCompile Include="LogoScene.cpp">
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClCompile>
-    <ClCompile Include="bmsParser.cpp">
-      <Filter>소스 파일\System</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sprite.h">
@@ -131,8 +128,10 @@
     <ClInclude Include="LogoScene.h">
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClInclude>
-    <ClInclude Include="bmsParser.h">
-      <Filter>소스 파일\System</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simplebmxplayer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

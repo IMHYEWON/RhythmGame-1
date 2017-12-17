@@ -145,7 +145,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bmsParser.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
@@ -163,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
-    <ClInclude Include="bmsParser.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="GameScene.h" />
@@ -178,6 +176,9 @@
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TitleScene.h" />
     <ClInclude Include="Track.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simplebmxplayer.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
