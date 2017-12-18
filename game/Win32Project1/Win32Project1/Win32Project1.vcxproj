@@ -145,40 +145,99 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="ActionBasic.cpp" />
+    <ClCompile Include="ActionPlay.cpp" />
+    <ClCompile Include="ActionRenderer.cpp" />
+    <ClCompile Include="ActionRenderer.h" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="BMSResource.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="O_Font.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="GameResult.cpp" />
     <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameSetting.cpp" />
     <ClCompile Include="GameSystem.cpp" />
+    <ClCompile Include="GlobalResources.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="LogoScene.cpp" />
+    <ClCompile Include="LuaManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MD5.cpp" />
+    <ClCompile Include="old_main.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Font.h" />
     <ClCompile Include="Note.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerInfo.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="ResultScene.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Skin.cpp" />
+    <ClCompile Include="skinlr2.cpp" />
+    <ClCompile Include="SkinOption.cpp" />
+    <ClCompile Include="SkinTextureFont.cpp" />
+    <ClCompile Include="SkinUtil.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Timer.cpp" />
     <ClCompile Include="TitleScene.cpp" />
     <ClCompile Include="Track.cpp" />
+    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActionBasic.h" />
+    <ClInclude Include="ActionPlay.h" />
     <ClInclude Include="Array.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="BMSResource.h" />
     <ClInclude Include="DLinkedList.h" />
-    <ClInclude Include="Font.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="O_Font.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="GameResult.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameSetting.h" />
     <ClInclude Include="GameSystem.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="GlobalResources.h" />
+    <ClInclude Include="HandleArgs.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Logger.h" />
     <ClInclude Include="LogoScene.h" />
+    <ClInclude Include="LuaManager.h" />
     <ClInclude Include="Note.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerInfo.h" />
+    <ClInclude Include="PlayerRecord.h" />
+    <ClInclude Include="Resource.h" />
     <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="ResultScene.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Skin.h" />
+    <ClInclude Include="SkinOption.h" />
+    <ClInclude Include="SkinTextureFont.h" />
+    <ClInclude Include="SkinUtil.h" />
     <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StdString.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="Timer.h" />
     <ClInclude Include="TitleScene.h" />
     <ClInclude Include="Track.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="simplebmxplayer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MD5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -37,11 +37,29 @@
     <Filter Include="소스 파일\Scene\Logo">
       <UniqueIdentifier>{2418bdb9-23c7-467b-bad2-b250a3e0f7a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BMXPlayer">
+      <UniqueIdentifier>{3d32ccaa-9708-4ccb-a941-20d3d4f2d0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\BMS">
+      <UniqueIdentifier>{72551387-4c1e-4853-b38a-1ff928b7fcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\Action">
+      <UniqueIdentifier>{91e79477-327c-48d1-9952-c9120ea3d8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\System">
+      <UniqueIdentifier>{b320057e-627b-4a62-af6b-05297a902151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\Game">
+      <UniqueIdentifier>{14677e97-63a5-448b-8d10-6f468d4addb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\Player">
+      <UniqueIdentifier>{c0e2c1c7-6e29-4bc4-8b0a-612e99433062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BMXPlayer\Skin">
+      <UniqueIdentifier>{fd6f3aae-d58c-440f-b573-68f996880686}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Sprite.cpp">
       <Filter>소스 파일\Graphics</Filter>
     </ClCompile>
@@ -53,9 +71,6 @@
     </ClCompile>
     <ClCompile Include="ResourceManager.cpp">
       <Filter>소스 파일\System</Filter>
-    </ClCompile>
-    <ClCompile Include="Font.cpp">
-      <Filter>소스 파일\Graphics</Filter>
     </ClCompile>
     <ClCompile Include="GameScene.cpp">
       <Filter>소스 파일\Scene\Game</Filter>
@@ -81,6 +96,96 @@
     <ClCompile Include="LogoScene.cpp">
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClCompile>
+    <ClCompile Include="ActionRenderer.h">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBasic.cpp">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlay.cpp">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionRenderer.cpp">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="BMSResource.cpp">
+      <Filter>소스 파일\BMXPlayer\BMS</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResult.cpp">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetting.cpp">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalResources.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaManager.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="old_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\BMXPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\BMXPlayer\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>소스 파일\BMXPlayer\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skinlr2.cpp">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinOption.cpp">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinTextureFont.cpp">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinUtil.cpp">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="O_Font.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sprite.h">
@@ -100,9 +205,6 @@
     </ClInclude>
     <ClInclude Include="ResourceManager.h">
       <Filter>소스 파일\System</Filter>
-    </ClInclude>
-    <ClInclude Include="Font.h">
-      <Filter>소스 파일\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="GameScene.h">
       <Filter>소스 파일\Scene\Game</Filter>
@@ -128,10 +230,102 @@
     <ClInclude Include="LogoScene.h">
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClInclude>
+    <ClInclude Include="ActionBasic.h">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlay.h">
+      <Filter>소스 파일\BMXPlayer\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="BMSResource.h">
+      <Filter>소스 파일\BMXPlayer\BMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResult.h">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetting.h">
+      <Filter>소스 파일\BMXPlayer\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalResources.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleArgs.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\BMXPlayer\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>소스 파일\BMXPlayer\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRecord.h">
+      <Filter>소스 파일\BMXPlayer\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinOption.h">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinTextureFont.h">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinUtil.h">
+      <Filter>소스 파일\BMXPlayer\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="StdString.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </ClInclude>
+    <ClInclude Include="O_Font.h">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="simplebmxplayer.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MD5.h">
+      <Filter>소스 파일\BMXPlayer\System</Filter>
+    </None>
   </ItemGroup>
 </Project>
