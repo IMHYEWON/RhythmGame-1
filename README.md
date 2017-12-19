@@ -2,9 +2,10 @@
 
 ## C++ RhythmGame Example
  Timer Based Rhythm Game
- You Can't Build this project. because i'm update this project currently. 
- thank you for invite my Repo!!
- I'll be comming soon~!
+ You Can't Build this project.<br />
+ because i'm update this project currently. <br />
+ thank you for invite my Repo!! <br />
+ I'll be comming soon~! <br />
  
  ## Process Cycle
  SDL_Texture -> Texture -> Sprite -> Note -> Track -> GameScene extends Scene -> SceneManager
