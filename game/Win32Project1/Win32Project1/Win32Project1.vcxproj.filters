@@ -81,6 +81,9 @@
     <ClCompile Include="LogoScene.cpp">
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClCompile>
+    <ClCompile Include="BMSParser.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sprite.h">
@@ -127,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="LogoScene.h">
       <Filter>소스 파일\Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="BMSParser.h">
+      <Filter>소스 파일\System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
