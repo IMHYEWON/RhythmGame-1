@@ -1,7 +1,1 @@
-#include "BMSParser.h"
-#include <iostream>
-void BMSParser::Parse() {
-	StreamReader^
-}
-
-94160200143758
+#include <stdio.h>

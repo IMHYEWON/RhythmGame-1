@@ -1,0 +1,25 @@
+﻿  C:\Users\user\Documents\GitHub\RhythmGame\extern\zziplib\msvc8\Debug\vc80.idb을(를) 찾을 수 없습니다.
+  zip.c
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\zip.c(414): warning C4244: '함수': 'zzip_off64_t'에서 '::size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\zip.c(460): warning C4244: '함수': 'zzip_off64_t'에서 'zzip_off_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\zip.c(504): warning C4244: '=': 'uint16_t'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  stat.c
+  plugin.c
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\plugin.c(47): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(516): note: 'open' 선언을 참조하십시오.
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\plugin.c(48): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_io.h(459): note: 'close' 선언을 참조하십시오.
+  info.c
+  file.c
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\file.c(855): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' 선언을 참조하십시오.
+  fetch.c
+  err.c
+  dir.c
+c:\users\user\documents\github\rhythmgame\extern\zziplib\zzip\dir.c(283): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\user\Documents\GitHub\RhythmGame\extern\zziplib\msvc8\Debug\zziplib.lib)이(가) Library의 OutputFile 속성 값(C:\Users\user\Documents\GitHub\RhythmGame\extern\zziplib\msvc8\zziplib-Debug.lib)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1373,5): warning MSB8012: TargetName(zziplib)이(가) Library의 OutputFile 속성 값(zziplib-Debug)과 일치하지 않습니다. 이로 인해 프로젝트가 잘못 빌드될 수 있습니다. 이를 수정하려면 $(OutDir), $(TargetName) 및 $(TargetExt) 속성 값이 %(Lib.OutputFile)에 지정된 값과 일치해야 합니다.
+  zziplib.vcxproj -> C:\Users\user\Documents\GitHub\RhythmGame\extern\zziplib\msvc8\Debug\zziplib.lib
+  C:\Users\user\Documents\GitHub\RhythmGame\extern\zziplib\msvc8\Debug\vc80.idb을(를) 찾을 수 없습니다.

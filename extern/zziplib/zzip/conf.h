@@ -1,3 +1,4 @@
+
 /*
  * Here we postprocess autoconf generated prefix-config.h entries.
  * This is generally for things like "off_t" which is left undefined

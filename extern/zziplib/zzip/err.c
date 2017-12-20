@@ -13,7 +13,7 @@
  */
 
 #include <zzip/lib.h>           /* exported... */
-#include <zlib.h>
+#include <zlib/include/zlib.h>
 
 #include <string.h>
 #include <errno.h>

@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CB440073-2ED3-48CE-A1A1-B6EACB3A44BD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -46,6 +47,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
+    <LibraryPath>../../../extern/zziplib/zlib/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>Release\</OutDir>

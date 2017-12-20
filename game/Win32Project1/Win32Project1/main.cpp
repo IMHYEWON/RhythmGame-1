@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
+#include "BMSParser.h"
 
 #include "SDL.h"
 #include "SDL_ttf.h"
 #include "GameSystem.h"
-
 
 #include "Track.h"
 #include "SceneManager.h"
@@ -35,6 +36,14 @@ int main(int argc, char* argv[])
 	int currentTick = SDL_GetTicks();	// 현재 시간
 	int prevTick = currentTick;	// 이전 프레임 시간
 
+	std::string path("C:/Users/user/Documents/GitHub/RhythmGame/game/Win32Project1/Resources/Bms/test.bms");
+
+	BMSParser parser;
+	if (parser.Run(path))
+	{
+		parser.Print();
+		BMS bms = parser.GetBMS();
+	}
 	SDL_Event sdlEvent;
 	while (1)	// 게임 업데이트
 	{

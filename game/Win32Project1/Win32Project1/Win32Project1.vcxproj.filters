@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\Scene\Logo">
       <UniqueIdentifier>{2418bdb9-23c7-467b-bad2-b250a3e0f7a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\System\BMS">
+      <UniqueIdentifier>{8055c9e6-884a-417d-94d4-b89ea843a1b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -82,7 +85,7 @@
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClCompile>
     <ClCompile Include="BMSParser.cpp">
-      <Filter>소스 파일\System</Filter>
+      <Filter>소스 파일\System\BMS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -132,7 +135,19 @@
       <Filter>소스 파일\Scene\Logo</Filter>
     </ClInclude>
     <ClInclude Include="BMSParser.h">
-      <Filter>소스 파일\System</Filter>
+      <Filter>소스 파일\System\BMS</Filter>
+    </ClInclude>
+    <ClInclude Include="BMSUtils.h">
+      <Filter>소스 파일\System\BMS</Filter>
+    </ClInclude>
+    <ClInclude Include="BMS.h">
+      <Filter>소스 파일\System\BMS</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderField.h">
+      <Filter>소스 파일\System\BMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure.h">
+      <Filter>소스 파일\System\BMS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

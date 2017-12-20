@@ -31,7 +31,7 @@
 #endif
 
 #include <zzip/lib.h>
-#include <zlib.h>
+#include <zlib\include\zlib.h>
 
 #ifdef ZZIP_HAVE_UNISTD_H
 #include <unistd.h>

@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;../../../sdk/sdl/lib/x86;../../../sdk/sdl_image/lib/x86;../../../sdk/sdl_mixer/lib/x86;../../../sdk/sdl_ttf/lib/x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>../../../extern/zziplib/zlib/lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;../../../sdk/sdl/lib/x86;../../../sdk/sdl_image/lib/x86;../../../sdk/sdl_mixer/lib/x86;../../../sdk/sdl_ttf/lib/x86;$(LibraryPath)</LibraryPath>
     <IncludePath>../../../sdk/sdl/include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;../../../sdk/sdl_image/include;../../../sdk/sdl_mixer/include;../../../sdk/sdl_ttf/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -96,7 +96,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>SDL2_ttf.lib;SDL2_mixer.lib;sdl2_image.lib;sdl2.lib;sdl2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>zdll.lib;SDL2_ttf.lib;SDL2_mixer.lib;sdl2_image.lib;sdl2.lib;sdl2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -163,12 +163,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="BMS.h" />
     <ClInclude Include="BMSParser.h" />
+    <ClInclude Include="BMSUtils.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="GameSystem.h" />
+    <ClInclude Include="HeaderField.h" />
     <ClInclude Include="LogoScene.h" />
+    <ClInclude Include="Measure.h" />
     <ClInclude Include="Note.h" />
     <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="ResultScene.h" />
