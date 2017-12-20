@@ -135,4 +135,9 @@
       <Filter>소스 파일\System</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simplebmxplayer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
 </Project>

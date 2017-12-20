@@ -1,0 +1,36 @@
+﻿  C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\extern\zziplib\msvc8\Release\vc80.idb을(를) 찾을 수 없습니다.
+  dir.c
+C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\extern\zziplib\zzip/__dirent.h(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\extern\zziplib\zzip/__dirent.h(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\extern\zziplib\zzip/__dirent.h(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\zzip\dir.c(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\zzip\dir.c(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\zzip\dir.c(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+..\zzip\dir.c(283): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' 선언을 참조하십시오.
+  err.c
+..\zzip\err.c(75): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(181): note: 'strerror' 선언을 참조하십시오.
+..\zzip\err.c(80): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(181): note: 'strerror' 선언을 참조하십시오.
+..\zzip\err.c(92): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(181): note: 'strerror' 선언을 참조하십시오.
+  fetch.c
+  file.c
+..\zzip\file.c(855): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' 선언을 참조하십시오.
+  info.c
+  plugin.c
+..\zzip\plugin.c(47): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(516): note: 'open' 선언을 참조하십시오.
+..\zzip\plugin.c(48): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(459): note: 'close' 선언을 참조하십시오.
+  stat.c
+  zip.c
+..\zzip\zip.c(414): warning C4244: '함수': 'zzip_off64_t'에서 '::size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\zzip\zip.c(460): warning C4244: '함수': 'zzip_off64_t'에서 'zzip_off_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\zzip\zip.c(504): warning C4244: '=': 'uint16_t'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\zzip\zip.c(778): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  코드를 생성하고 있습니다...
+  zziplib.vcxproj -> C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\\lib\Release\zziplib.lib
+  C:\Users\Administrator\Desktop\SimpleBmxPlayer-master\extern\zziplib\msvc8\Release\vc80.idb을(를) 찾을 수 없습니다.
