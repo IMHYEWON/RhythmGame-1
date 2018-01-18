@@ -4,7 +4,7 @@
  Timer Based Rhythm Game
  You Can't Build this project.<br />
  because i'm update this project currently. <br />
- thank you for invite my Repo!! <br />
+ thank you for visit my Repo!! <br />
  I'll be comming soon~! <br />
  
  ## Process Cycle
